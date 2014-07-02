@@ -9,14 +9,17 @@ import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
 import android.widget.ImageView;
-
+/**
+ * @author fox
+ * 2014-7-2
+ */
 public class MainActivity extends Activity {
-	// 8个位置
+	// 7个位置
 	private int[] imgIDs = { R.id.widget31, R.id.widget32, R.id.widget33,
 			R.id.widget34, R.id.widget35, R.id.widget36, R.id.widget37, };
 	// 标志循环向右的状态数组
 	int[] arr = { 1, 2, 3, 4, 5 };
-	// 6个效果 0对应20%亮度，1对应20%亮度，2对应40亮度，3对应60亮度，4对应80亮度，5对应100亮度
+	// 6个效果:0对应20%亮度，1对应20%亮度，2对应40亮度，3对应60亮度，4对应80亮度，5对应100亮度
 	int[] circleArr = { R.drawable.login_loading_choose_twenty,
 			R.drawable.login_loading_choose_twenty,
 			R.drawable.login_loading_choose_forty,
