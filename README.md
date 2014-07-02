@@ -1,4 +1,5 @@
 blogLoadingTwo
 ==============
-5 state to show the loading view
+1.five state to show the loading view.
+2.Reconstruction the algorithm
 
